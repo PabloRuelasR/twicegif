@@ -1,0 +1,16 @@
+.gif-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 2fr));
+    row-gap: 1.5rem;
+}
+
+.contenedor-img{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-img img{
+    max-width: 70%;
+    height: auto;
+}
+
